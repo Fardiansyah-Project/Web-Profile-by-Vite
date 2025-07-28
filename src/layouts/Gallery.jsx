@@ -11,7 +11,7 @@ export default function Gallery() {
                         <h4 className="font-semibold text-lg uppercase text-primary mb-2 lg:text-2xl">
                             Gallery
                         </h4>
-                        <h2 className="font-bold text-3xl text-dark dark:text-slate-100 mb-4 sm:text-4xl lg:text-5xl dark:text-slate-100">
+                        <h2 className="font-bold text-3xl text-dark mb-4 sm:text-4xl lg:text-5xl">
                             Project Inside
                         </h2>
                         <p className="font-medium text-md text-secondary md:text-lg dark:text-slate-400">
@@ -21,6 +21,11 @@ export default function Gallery() {
                     </div>
                 </div>
                 <div className="w-full px-4 flex flex-wrap justify-center lg:w-10/12 lg:mx-auto">
+                    <CardGallery 
+                        photo = {Card1}
+                        title="Web Sistem Inventaris Barang" 
+                        text = "Web ini digunakan untuk menyimpan data dan kondisi barang pada organisasi PENA" 
+                    />
                     <CardGallery 
                         photo = {Card1}
                         title="Web Sistem Inventaris Barang" 

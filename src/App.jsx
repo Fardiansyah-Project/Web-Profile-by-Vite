@@ -4,6 +4,8 @@ import Header from './layouts/Header'
 import HeroSection from './layouts/HeroSection'
 import About from './layouts/About'
 import Gallery from './layouts/Gallery'
+import Skills from './layouts/Skills'
+import Contact from './layouts/Contact'
 
 function App() {
   const windowScroll = () => {
@@ -50,6 +52,8 @@ function App() {
       <HeroSection/>
       <About/>
       <Gallery/>
+      <Skills/>
+      <Contact/>
     </>
   )
 }

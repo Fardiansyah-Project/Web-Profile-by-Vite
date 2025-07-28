@@ -14,12 +14,12 @@ export default {
         primary: "#06b6d4",
         secondary: "#0f172a",
         danger:"#D00B00D"
-      }
+      },
+      screens:{
+        "2xl": "1230px",
+      },
     },
-    screens:{
-      "2xl": "1230px",
-    }
   },
   plugins: [],
-}
+};
 
