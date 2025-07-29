@@ -13,11 +13,10 @@ const About = () => {
                     >
                         <h4 className="font-bold uppercase text-primary mb-3">About Me</h4>
                         <h2 className="font-bold text-dark text-3xl mb-4 max-w-md lg:text-4xl">
-                            Building a website using frameworks
+                            Here is an explain about myself
                         </h2>
                         <p className="text-base font-medium text-secondary max-w-xl lg:text-lg">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem
-                            asperiores alias fugit dolores, officiis quia voluptatum.
+                            I am a person who is interesred in the IT field, I am studying at STMIK Adhi GUna
                         </p>
                     </div>
                     <div
@@ -29,9 +28,7 @@ const About = () => {
                             Follow Me
                         </h3>
                         <p className="font-medium text-base text-secondary mb-6 lg:text-lg">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
-                            dignissimos ipsam illo ex vitae laboriosam maxime, voluptatum
-                            reprehenderit!
+                            Come follow my social media so we can become parners
                         </p>
                         <div className="flex items-center">
                             <SocialMediaLinks />

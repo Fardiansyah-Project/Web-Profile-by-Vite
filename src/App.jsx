@@ -6,6 +6,7 @@ import About from './layouts/About'
 import Gallery from './layouts/Gallery'
 import Skills from './layouts/Skills'
 import Contact from './layouts/Contact'
+import Footer from './layouts/Footer'
 
 function App() {
   const windowScroll = () => {
@@ -54,6 +55,7 @@ function App() {
       <Gallery/>
       <Skills/>
       <Contact/>
+      <Footer/>
     </>
   )
 }

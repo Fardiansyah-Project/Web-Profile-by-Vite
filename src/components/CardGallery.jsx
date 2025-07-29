@@ -4,10 +4,10 @@ const CardGallery = (props) => {
             <div className="rounded-md shadow-md overflow-hidden">
                 <img src={props.photo} alt="My Portofolio" />
             </div>
-            <h3 className="font-semibold text-xl text-dark dark:text-slate-100 mt-5 mb-3">
+            <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
                 {props.title}
             </h3>
-            <p className="font-medium text-base text-secondary dark:text-slate-400">
+            <p className="font-medium text-base text-secondary">
                 {props.text}
             </p>
         </div>

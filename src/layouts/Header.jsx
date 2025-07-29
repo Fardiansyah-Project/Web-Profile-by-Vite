@@ -17,10 +17,11 @@ export default function Header() {
                         </button>
                     
                         <nav id="nav-menu" className="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none" >
-                            <ul className="block lg:flex">
+                            <ul className="block lg:flex text-dark">
                                 <NavMenu href="#hero-section" text="Home" />
                                 <NavMenu href="#about" text="About" />
                                 <NavMenu href="#gallery" text="Gallery" />
+                                <NavMenu href="#skills" text="Skills" />
                                 <NavMenu href="#contact" text="Contact" />
                             </ul>
                         </nav>

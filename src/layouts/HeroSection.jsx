@@ -7,9 +7,9 @@ function HeroSection() {
             <div className="container">
                 <div className="flex flex-wrap">
                     <div className="w-full self-center px-4 lg:w-1/2">
-                        <h1 className="text-base font-semibold text-primary md:text-xl">Hai, My name is <span className="block font-bold text-4xl lg:text-5xl">Fardiansyah</span></h1>
+                        <h1 className="text-base font-semibold text-primary md:text-xl">Hi🙌, My name is <span className="block font-bold text-4xl lg:text-5xl">Fardiansyah</span></h1>
                         <h2 className="font-medium text-slate-600 text-lg mb-5 lg:text-2xl">Web & Mobile Developer</h2>
-                        <p className="font-medium text-secondary mb-10 leading-relaxed">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id libero distinctio eos?</p>
+                        <p className="font-medium text-secondary mb-10 leading-relaxed">I am a student majoring in Informatics Engineering</p>
                         <a href="#" className="bg-primary text-base font-semibold text-white py-3 px-6 rounded-full hover:shadow-xl hover:bg-cyan-600 transition duration-200 ease-in-out">Contact Me</a>
                     </div>
                     <div className="w-full mb-20 self-end px-4 lg:w-1/2">
