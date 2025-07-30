@@ -13,11 +13,16 @@ function App() {
     window.onscroll = function () {
       const header = document.querySelector('header');
       const fixedNav = header.offsetTop;
+      const btnScrollBack = document.querySelector('#btn-scroll')
 
       if (window.pageYOffset > fixedNav) {
         header.classList.add('nav-fixed');
+        btnScrollBack.classList.remove('hidden');
+        btnScrollBack.classList.add('flex');
       } else {
         header.classList.remove('nav-fixed');
+        btnScrollBack.classList.remove('flex');
+        btnScrollBack.classList.add('hidden');
       }
     }
   }

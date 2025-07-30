@@ -10,7 +10,7 @@ function HeroSection() {
                         <h1 className="text-base font-semibold text-primary md:text-xl">Hi🙌, My name is <span className="block font-bold text-4xl lg:text-5xl">Fardiansyah</span></h1>
                         <h2 className="font-medium text-slate-600 text-lg mb-5 lg:text-2xl">Web & Mobile Developer</h2>
                         <p className="font-medium text-secondary mb-10 leading-relaxed">I am a student majoring in Informatics Engineering</p>
-                        <a href="#" className="bg-primary text-base font-semibold text-white py-3 px-6 rounded-full hover:shadow-xl hover:bg-cyan-600 transition duration-200 ease-in-out">Contact Me</a>
+                        <a href="#contact" className="bg-primary text-base font-semibold text-white py-3 px-6 rounded-full hover:shadow-xl hover:bg-cyan-600 transition duration-200 ease-in-out">Contact Me</a>
                     </div>
                     <div className="w-full mb-20 self-end px-4 lg:w-1/2">
                         <div className="relative mt-10 lg:mt-10 sm:mx-12 lg:right-0 rounded-xl h-100 w-100 lg:h-50 lg:w-50 ">

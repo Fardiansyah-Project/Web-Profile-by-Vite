@@ -16,7 +16,7 @@ const About = () => {
                             Here is an explain about myself
                         </h2>
                         <p className="text-base font-medium text-secondary max-w-xl lg:text-lg">
-                            I am a person who is interesred in the IT field, I am studying at STMIK Adhi GUna
+                            I am a person who is interesred in the IT field, I am studying at STMIK Adhi Guna
                         </p>
                     </div>
                     <div
@@ -31,7 +31,9 @@ const About = () => {
                             Come follow my social media so we can become parners
                         </p>
                         <div className="flex items-center">
-                            <SocialMediaLinks />
+                            <div className="flex">
+                                <SocialMediaLinks />
+                            </div>
                         </div>
                     </div>
                 </div>
