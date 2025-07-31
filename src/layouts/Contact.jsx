@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import InputForm from "../components/InputForm";
 import TextareaInput from "../components/TextareaInput";
-import ButtonInput from "../components/buttonInput";
+import ButtonInput from "../components/ButtonInput";
 import BaseForm from "../components/BaseForm";
 
 export default function Contact() {

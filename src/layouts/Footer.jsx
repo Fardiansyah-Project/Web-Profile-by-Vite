@@ -1,4 +1,4 @@
-import NavMenu from "../components/navMenu";
+import NavMenu from "../components/NavMenu";
 import ScrollBack from "../components/ScrollBack";
 import SocialMediaLinks from "../components/SocialMediaLinks";
 
